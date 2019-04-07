@@ -2,7 +2,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-// make a component
+// Make a component
 const Header = props => {
   const { textStyle, viewStyle } = styles;
 
@@ -23,7 +23,7 @@ const styles = {
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
-    elevation: 3,
+    elevation: 2,
     position: "relative"
   },
   textStyle: {
@@ -31,5 +31,5 @@ const styles = {
   }
 };
 
-// make compnoent available to other parts of the app
+// Make the component available to other parts of the app
 export { Header };
