@@ -4,3 +4,4 @@ export * from "./CardSection";
 export * from "./Header";
 export * from "./Input.js";
 export * from "./Spinner.js";
+export * from "./Confirm.js";
